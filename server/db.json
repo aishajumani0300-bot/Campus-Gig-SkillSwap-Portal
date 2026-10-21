@@ -1,0 +1,757 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "name": "Areeba Khan",
+      "major": "Software Engineering",
+      "semester": 4,
+      "bio": "Frontend developer who enjoys building useful student tools.",
+      "skills": [
+        "React",
+        "JavaScript",
+        "CSS"
+      ]
+    },
+    {
+      "id": "u2",
+      "name": "Hamza Ali",
+      "major": "Computer Systems Engineering",
+      "semester": 3,
+      "bio": "I enjoy programming and solving problems.",
+      "skills": [
+        "C++",
+        "Python",
+        "DSA"
+      ]
+    },
+    {
+      "id": "u3",
+      "name": "Sana Ahmed",
+      "major": "Computer Science",
+      "semester": 5,
+      "bio": "Graphic designer and illustrator.",
+      "skills": [
+        "Figma",
+        "Canva",
+        "Logo Design"
+      ]
+    },
+    {
+      "id": "u4",
+      "name": "Bilal Shah",
+      "major": "Software Engineering",
+      "semester": 2,
+      "bio": "Happy to help with beginner programming.",
+      "skills": [
+        "HTML",
+        "C++",
+        "Tutoring"
+      ]
+    },
+    {
+      "id": "u5",
+      "name": "Maham Raza",
+      "major": "English",
+      "semester": 4,
+      "bio": "Writer and proofreader.",
+      "skills": [
+        "Writing",
+        "Editing",
+        "English"
+      ]
+    },
+    {
+      "id": "u6",
+      "name": "Usman Malik",
+      "major": "Information Technology",
+      "semester": 6,
+      "bio": "I build small websites for clubs and societies.",
+      "skills": [
+        "React",
+        "Node.js",
+        "Git"
+      ]
+    },
+    {
+      "id": "u7",
+      "name": "Hira Noor",
+      "major": "Mathematics",
+      "semester": 3,
+      "bio": "Maths tutor for first-year students.",
+      "skills": [
+        "Calculus",
+        "Algebra",
+        "Tutoring"
+      ]
+    },
+    {
+      "id": "u8",
+      "name": "Daniyal Ahmed",
+      "major": "Software Engineering",
+      "semester": 5,
+      "bio": "Video editor and content creator.",
+      "skills": [
+        "Premiere Pro",
+        "Video Editing"
+      ]
+    },
+    {
+      "id": "u9",
+      "name": "Zoya Sheikh",
+      "major": "Media Studies",
+      "semester": 2,
+      "bio": "Social media and presentation designer.",
+      "skills": [
+        "Canva",
+        "PowerPoint",
+        "Design"
+      ]
+    },
+    {
+      "id": "u10",
+      "name": "Saad Hussain",
+      "major": "Electrical Engineering",
+      "semester": 4,
+      "bio": "Interested in data and automation.",
+      "skills": [
+        "Python",
+        "Excel",
+        "Data"
+      ]
+    },
+    {
+      "id": "u11",
+      "name": "Iqra Memon",
+      "major": "Biotechnology",
+      "semester": 3,
+      "bio": "I can help with reports and presentations.",
+      "skills": [
+        "Research",
+        "Writing",
+        "PowerPoint"
+      ]
+    },
+    {
+      "id": "u12",
+      "name": "Ahmed Junejo",
+      "major": "Software Engineering",
+      "semester": 6,
+      "bio": "Backend developer learning cloud tools.",
+      "skills": [
+        "Express",
+        "APIs",
+        "MongoDB"
+      ]
+    }
+  ],
+  "gigs": [
+    {
+      "id": "g1",
+      "user_id": "u1",
+      "title": "Build a portfolio landing page",
+      "description": "I need a simple responsive portfolio page for my projects.",
+      "type": "Requesting",
+      "category": "Programming",
+      "payment_type": "Paid",
+      "budget": 2500,
+      "deadline": "2027-01-25",
+      "status": "Open",
+      "accepted_applicant_id": null,
+      "created_at": "2026-10-20T10:00:00.000Z"
+    },
+    {
+      "id": "g2",
+      "user_id": "u2",
+      "title": "Design a society event poster",
+      "description": "Create an attractive poster for our campus event.",
+      "type": "Requesting",
+      "category": "Design",
+      "payment_type": "Paid",
+      "budget": 800,
+      "deadline": "2027-02-26",
+      "status": "Open",
+      "accepted_applicant_id": null,
+      "created_at": "2026-10-19T10:00:00.000Z"
+    },
+    {
+      "id": "g3",
+      "user_id": "u3",
+      "title": "Proofread an assignment",
+      "description": "Check grammar and clarity in a short report.",
+      "type": "Requesting",
+      "category": "Writing",
+      "payment_type": "Free",
+      "budget": null,
+      "deadline": "2027-03-27",
+      "status": "Open",
+      "accepted_applicant_id": null,
+      "created_at": "2026-10-18T10:00:00.000Z"
+    },
+    {
+      "id": "g4",
+      "user_id": "u4",
+      "title": "Teach basic C++ loops",
+      "description": "I can teach loops and conditions to beginners.",
+      "type": "Offering",
+      "category": "Tutoring",
+      "payment_type": "SkillSwap",
+      "budget": null,
+      "deadline": "2027-04-28",
+      "status": "Completed",
+      "accepted_applicant_id": "u5",
+      "created_at": "2026-10-17T10:00:00.000Z"
+    },
+    {
+      "id": "g5",
+      "user_id": "u5",
+      "title": "Create a React task tracker",
+      "description": "I can build a small task tracker for a student club.",
+      "type": "Offering",
+      "category": "Programming",
+      "payment_type": "Paid",
+      "budget": 3000,
+      "deadline": "2027-05-28",
+      "status": "In Progress",
+      "accepted_applicant_id": "u6",
+      "created_at": "2026-10-16T10:00:00.000Z"
+    },
+    {
+      "id": "g6",
+      "user_id": "u6",
+      "title": "Make a presentation template",
+      "description": "Need a clean PowerPoint template for a seminar.",
+      "type": "Requesting",
+      "category": "Design",
+      "payment_type": "Paid",
+      "budget": 1000,
+      "deadline": "2027-06-25",
+      "status": "Open",
+      "accepted_applicant_id": null,
+      "created_at": "2026-10-15T10:00:00.000Z"
+    },
+    {
+      "id": "g7",
+      "user_id": "u7",
+      "title": "English speaking practice",
+      "description": "Let's exchange English conversation practice for coding basics.",
+      "type": "Offering",
+      "category": "Tutoring",
+      "payment_type": "SkillSwap",
+      "budget": null,
+      "deadline": "2027-07-26",
+      "status": "Open",
+      "accepted_applicant_id": null,
+      "created_at": "2026-10-14T10:00:00.000Z"
+    },
+    {
+      "id": "g8",
+      "user_id": "u8",
+      "title": "Edit a short campus video",
+      "description": "Need a 60-second video edited for a society page.",
+      "type": "Requesting",
+      "category": "Design",
+      "payment_type": "Paid",
+      "budget": 1500,
+      "deadline": "2027-08-27",
+      "status": "Completed",
+      "accepted_applicant_id": "u9",
+      "created_at": "2026-10-13T10:00:00.000Z"
+    },
+    {
+      "id": "g9",
+      "user_id": "u9",
+      "title": "Write a blog post",
+      "description": "I can write a 500-word blog post about student life.",
+      "type": "Offering",
+      "category": "Writing",
+      "payment_type": "Paid",
+      "budget": 1200,
+      "deadline": "2027-09-28",
+      "status": "Open",
+      "accepted_applicant_id": null,
+      "created_at": "2026-10-12T10:00:00.000Z"
+    },
+    {
+      "id": "g10",
+      "user_id": "u10",
+      "title": "Explain calculus questions",
+      "description": "Looking for help understanding derivatives.",
+      "type": "Requesting",
+      "category": "Tutoring",
+      "payment_type": "Free",
+      "budget": null,
+      "deadline": "2027-10-28",
+      "status": "In Progress",
+      "accepted_applicant_id": "u11",
+      "created_at": "2026-10-11T10:00:00.000Z"
+    },
+    {
+      "id": "g11",
+      "user_id": "u11",
+      "title": "Fix CSS on a small website",
+      "description": "Need help aligning cards and making the page responsive.",
+      "type": "Requesting",
+      "category": "Programming",
+      "payment_type": "Paid",
+      "budget": 1000,
+      "deadline": "2027-11-25",
+      "status": "Open",
+      "accepted_applicant_id": null,
+      "created_at": "2026-10-10T10:00:00.000Z"
+    },
+    {
+      "id": "g12",
+      "user_id": "u12",
+      "title": "Create a logo concept",
+      "description": "I can design a simple logo concept for a student project.",
+      "type": "Offering",
+      "category": "Design",
+      "payment_type": "SkillSwap",
+      "budget": null,
+      "deadline": "2027-12-26",
+      "status": "Open",
+      "accepted_applicant_id": null,
+      "created_at": "2026-10-09T10:00:00.000Z"
+    },
+    {
+      "id": "g13",
+      "user_id": "u1",
+      "title": "Review a CV",
+      "description": "I can review your CV and suggest improvements.",
+      "type": "Offering",
+      "category": "Writing",
+      "payment_type": "Free",
+      "budget": null,
+      "deadline": "2027-01-27",
+      "status": "Completed",
+      "accepted_applicant_id": "u2",
+      "created_at": "2026-10-08T10:00:00.000Z"
+    },
+    {
+      "id": "g14",
+      "user_id": "u2",
+      "title": "Tutor Python basics",
+      "description": "Looking for a beginner Python tutor for two sessions.",
+      "type": "Requesting",
+      "category": "Tutoring",
+      "payment_type": "Paid",
+      "budget": 2000,
+      "deadline": "2027-02-28",
+      "status": "Open",
+      "accepted_applicant_id": null,
+      "created_at": "2026-10-07T10:00:00.000Z"
+    },
+    {
+      "id": "g15",
+      "user_id": "u3",
+      "title": "Build a club registration form",
+      "description": "I can create a responsive registration form.",
+      "type": "Offering",
+      "category": "Programming",
+      "payment_type": "Paid",
+      "budget": 1800,
+      "deadline": "2027-03-28",
+      "status": "In Progress",
+      "accepted_applicant_id": "u4",
+      "created_at": "2026-10-06T10:00:00.000Z"
+    },
+    {
+      "id": "g16",
+      "user_id": "u4",
+      "title": "Summarize lecture notes",
+      "description": "Need clear summaries for two lectures.",
+      "type": "Requesting",
+      "category": "Writing",
+      "payment_type": "Free",
+      "budget": null,
+      "deadline": "2026-10-10",
+      "status": "Open",
+      "accepted_applicant_id": null,
+      "created_at": "2026-10-05T10:00:00.000Z"
+    },
+    {
+      "id": "g17",
+      "user_id": "u5",
+      "title": "Design social media posts",
+      "description": "I can create three posts for a campus society.",
+      "type": "Offering",
+      "category": "Design",
+      "payment_type": "Paid",
+      "budget": 1200,
+      "deadline": "2027-05-26",
+      "status": "Open",
+      "accepted_applicant_id": null,
+      "created_at": "2026-10-04T10:00:00.000Z"
+    },
+    {
+      "id": "g18",
+      "user_id": "u6",
+      "title": "Help with Java arrays",
+      "description": "Need a student to explain arrays and ArrayList.",
+      "type": "Requesting",
+      "category": "Tutoring",
+      "payment_type": "SkillSwap",
+      "budget": null,
+      "deadline": "2027-06-27",
+      "status": "Completed",
+      "accepted_applicant_id": "u7",
+      "created_at": "2026-10-21T10:00:00.000Z"
+    },
+    {
+      "id": "g19",
+      "user_id": "u7",
+      "title": "Debug a Python script",
+      "description": "I can help find and fix a simple Python bug.",
+      "type": "Offering",
+      "category": "Programming",
+      "payment_type": "Free",
+      "budget": null,
+      "deadline": "2027-07-28",
+      "status": "Open",
+      "accepted_applicant_id": null,
+      "created_at": "2026-10-20T10:00:00.000Z"
+    },
+    {
+      "id": "g20",
+      "user_id": "u8",
+      "title": "Edit an essay",
+      "description": "Need grammar and structure feedback on an essay.",
+      "type": "Requesting",
+      "category": "Writing",
+      "payment_type": "Paid",
+      "budget": 700,
+      "deadline": "2027-08-28",
+      "status": "In Progress",
+      "accepted_applicant_id": "u9",
+      "created_at": "2026-10-19T10:00:00.000Z"
+    },
+    {
+      "id": "g21",
+      "user_id": "u9",
+      "title": "Make an infographic",
+      "description": "I can turn your research into a simple infographic.",
+      "type": "Offering",
+      "category": "Design",
+      "payment_type": "Paid",
+      "budget": 1500,
+      "deadline": "2027-09-25",
+      "status": "Open",
+      "accepted_applicant_id": null,
+      "created_at": "2026-10-18T10:00:00.000Z"
+    },
+    {
+      "id": "g22",
+      "user_id": "u10",
+      "title": "Teach HTML and CSS",
+      "description": "I can give a beginner lesson on webpage basics.",
+      "type": "Offering",
+      "category": "Tutoring",
+      "payment_type": "Free",
+      "budget": null,
+      "deadline": "2027-10-26",
+      "status": "Completed",
+      "accepted_applicant_id": "u11",
+      "created_at": "2026-10-17T10:00:00.000Z"
+    },
+    {
+      "id": "g23",
+      "user_id": "u11",
+      "title": "Create a simple API demo",
+      "description": "Need a basic Express API for a class project.",
+      "type": "Requesting",
+      "category": "Programming",
+      "payment_type": "SkillSwap",
+      "budget": null,
+      "deadline": "2027-11-27",
+      "status": "Open",
+      "accepted_applicant_id": null,
+      "created_at": "2026-10-16T10:00:00.000Z"
+    },
+    {
+      "id": "g24",
+      "user_id": "u12",
+      "title": "Write product descriptions",
+      "description": "I can write descriptions for a student marketplace demo.",
+      "type": "Offering",
+      "category": "Writing",
+      "payment_type": "Paid",
+      "budget": 1000,
+      "deadline": "2027-12-28",
+      "status": "Open",
+      "accepted_applicant_id": null,
+      "created_at": "2026-10-15T10:00:00.000Z"
+    },
+    {
+      "id": "g25",
+      "user_id": "u1",
+      "title": "Prepare for a math quiz",
+      "description": "Need help reviewing algebra before a quiz.",
+      "type": "Requesting",
+      "category": "Tutoring",
+      "payment_type": "Paid",
+      "budget": 1000,
+      "deadline": "2027-01-28",
+      "status": "Cancelled",
+      "accepted_applicant_id": null,
+      "created_at": "2026-10-14T10:00:00.000Z"
+    },
+    {
+      "id": "g26",
+      "user_id": "u1",
+      "title": "aisha",
+      "description": "i am posting a gig for demo.",
+      "type": "Offering",
+      "category": "Programming",
+      "payment_type": "Paid",
+      "budget": 1000,
+      "deadline": "2027-01-31",
+      "status": "Open",
+      "accepted_applicant_id": null,
+      "created_at": "2026-10-21T10:00:09.413Z"
+    }
+  ],
+  "applications": [
+    {
+      "id": "a1",
+      "gig_id": "g1",
+      "applicant_id": "u5",
+      "message": "Hi! I am interested and have relevant skills. I can complete this carefully and on time.",
+      "status": "Pending",
+      "created_at": "2026-10-20T12:00:00.000Z"
+    },
+    {
+      "id": "a2",
+      "gig_id": "g2",
+      "applicant_id": "u6",
+      "message": "Hi! I am interested and have relevant skills. I can complete this carefully and on time.",
+      "status": "Pending",
+      "created_at": "2026-10-19T12:00:00.000Z"
+    },
+    {
+      "id": "a3",
+      "gig_id": "g3",
+      "applicant_id": "u7",
+      "message": "Hi! I am interested and have relevant skills. I can complete this carefully and on time.",
+      "status": "Rejected",
+      "created_at": "2026-10-18T12:00:00.000Z"
+    },
+    {
+      "id": "a4",
+      "gig_id": "g4",
+      "applicant_id": "u5",
+      "message": "Hi! I am interested and have relevant skills. I can complete this carefully and on time.",
+      "status": "Accepted",
+      "created_at": "2026-10-17T12:00:00.000Z"
+    },
+    {
+      "id": "a5",
+      "gig_id": "g5",
+      "applicant_id": "u6",
+      "message": "Hi! I am interested and have relevant skills. I can complete this carefully and on time.",
+      "status": "Accepted",
+      "created_at": "2026-10-16T12:00:00.000Z"
+    },
+    {
+      "id": "a6",
+      "gig_id": "g6",
+      "applicant_id": "u10",
+      "message": "Hi! I am interested and have relevant skills. I can complete this carefully and on time.",
+      "status": "Rejected",
+      "created_at": "2026-10-15T12:00:00.000Z"
+    },
+    {
+      "id": "a7",
+      "gig_id": "g7",
+      "applicant_id": "u11",
+      "message": "Hi! I am interested and have relevant skills. I can complete this carefully and on time.",
+      "status": "Pending",
+      "created_at": "2026-10-14T12:00:00.000Z"
+    },
+    {
+      "id": "a8",
+      "gig_id": "g8",
+      "applicant_id": "u9",
+      "message": "Hi! I am interested and have relevant skills. I can complete this carefully and on time.",
+      "status": "Accepted",
+      "created_at": "2026-10-13T12:00:00.000Z"
+    },
+    {
+      "id": "a9",
+      "gig_id": "g9",
+      "applicant_id": "u1",
+      "message": "Hi! I am interested and have relevant skills. I can complete this carefully and on time.",
+      "status": "Pending",
+      "created_at": "2026-10-12T12:00:00.000Z"
+    },
+    {
+      "id": "a10",
+      "gig_id": "g10",
+      "applicant_id": "u11",
+      "message": "Hi! I am interested and have relevant skills. I can complete this carefully and on time.",
+      "status": "Accepted",
+      "created_at": "2026-10-11T12:00:00.000Z"
+    },
+    {
+      "id": "a11",
+      "gig_id": "g11",
+      "applicant_id": "u3",
+      "message": "Hi! I am interested and have relevant skills. I can complete this carefully and on time.",
+      "status": "Pending",
+      "created_at": "2026-10-10T12:00:00.000Z"
+    },
+    {
+      "id": "a12",
+      "gig_id": "g12",
+      "applicant_id": "u4",
+      "message": "Hi! I am interested and have relevant skills. I can complete this carefully and on time.",
+      "status": "Rejected",
+      "created_at": "2026-10-09T12:00:00.000Z"
+    },
+    {
+      "id": "a13",
+      "gig_id": "g13",
+      "applicant_id": "u2",
+      "message": "Hi! I am interested and have relevant skills. I can complete this carefully and on time.",
+      "status": "Accepted",
+      "created_at": "2026-10-08T12:00:00.000Z"
+    },
+    {
+      "id": "a14",
+      "gig_id": "g14",
+      "applicant_id": "u6",
+      "message": "Hi! I am interested and have relevant skills. I can complete this carefully and on time.",
+      "status": "Pending",
+      "created_at": "2026-10-07T12:00:00.000Z"
+    },
+    {
+      "id": "a15",
+      "gig_id": "g15",
+      "applicant_id": "u4",
+      "message": "Hi! I am interested and have relevant skills. I can complete this carefully and on time.",
+      "status": "Accepted",
+      "created_at": "2026-10-06T12:00:00.000Z"
+    },
+    {
+      "id": "a16",
+      "gig_id": "g16",
+      "applicant_id": "u8",
+      "message": "Hi! I am interested and have relevant skills. I can complete this carefully and on time.",
+      "status": "Pending",
+      "created_at": "2026-10-06T12:00:00.000Z"
+    },
+    {
+      "id": "a17",
+      "gig_id": "g17",
+      "applicant_id": "u9",
+      "message": "Hi! I am interested and have relevant skills. I can complete this carefully and on time.",
+      "status": "Pending",
+      "created_at": "2026-10-05T12:00:00.000Z"
+    },
+    {
+      "id": "a18",
+      "gig_id": "g18",
+      "applicant_id": "u7",
+      "message": "Hi! I am interested and have relevant skills. I can complete this carefully and on time.",
+      "status": "Accepted",
+      "created_at": "2026-10-21T08:00:00.000Z"
+    },
+    {
+      "id": "a19",
+      "gig_id": "g1",
+      "applicant_id": "u11",
+      "message": "Hi! I am interested and have relevant skills. I can complete this carefully and on time.",
+      "status": "Pending",
+      "created_at": "2026-10-17T12:00:00.000Z"
+    },
+    {
+      "id": "a20",
+      "gig_id": "g2",
+      "applicant_id": "u12",
+      "message": "Hi! I am interested and have relevant skills. I can complete this carefully and on time.",
+      "status": "Pending",
+      "created_at": "2026-10-16T12:00:00.000Z"
+    },
+    {
+      "id": "a21",
+      "gig_id": "g20",
+      "applicant_id": "u9",
+      "message": "Hi! I am interested and have relevant skills. I can complete this carefully and on time.",
+      "status": "Accepted",
+      "created_at": "2026-10-19T14:00:00.000Z"
+    },
+    {
+      "id": "a22",
+      "gig_id": "g22",
+      "applicant_id": "u11",
+      "message": "Hi! I am interested and have relevant skills. I can complete this carefully and on time.",
+      "status": "Accepted",
+      "created_at": "2026-10-17T14:00:00.000Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "r1",
+      "gig_id": "g4",
+      "reviewer_id": "u4",
+      "reviewee_id": "u5",
+      "rating": 5,
+      "comment": "Helpful and friendly collaboration."
+    },
+    {
+      "id": "r2",
+      "gig_id": "g8",
+      "reviewer_id": "u8",
+      "reviewee_id": "u9",
+      "rating": 4,
+      "comment": "Great communication and reliable work."
+    },
+    {
+      "id": "r3",
+      "gig_id": "g13",
+      "reviewer_id": "u1",
+      "reviewee_id": "u2",
+      "rating": 5,
+      "comment": "Helpful and friendly collaboration."
+    },
+    {
+      "id": "r4",
+      "gig_id": "g18",
+      "reviewer_id": "u6",
+      "reviewee_id": "u7",
+      "rating": 4,
+      "comment": "Great communication and reliable work."
+    },
+    {
+      "id": "r5",
+      "gig_id": "g4",
+      "reviewer_id": "u5",
+      "reviewee_id": "u4",
+      "rating": 5,
+      "comment": "Clear explanations and very patient."
+    },
+    {
+      "id": "r6",
+      "gig_id": "g8",
+      "reviewer_id": "u9",
+      "reviewee_id": "u8",
+      "rating": 5,
+      "comment": "Clear brief and prompt feedback."
+    },
+    {
+      "id": "r7",
+      "gig_id": "g13",
+      "reviewer_id": "u2",
+      "reviewee_id": "u1",
+      "rating": 4,
+      "comment": "Useful suggestions and quick replies."
+    },
+    {
+      "id": "r8",
+      "gig_id": "g18",
+      "reviewer_id": "u7",
+      "reviewee_id": "u6",
+      "rating": 5,
+      "comment": "Easy to work with and well prepared."
+    }
+  ]
+}
